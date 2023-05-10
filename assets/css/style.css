@@ -1,0 +1,134 @@
+body{
+  
+   
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+h1{text-align: center;
+font-size: 3em;
+margin: 2px;
+}
+form {
+    background: white;
+    border-left:20px solid royalblue;
+    border-right:20px solid royalblue;
+    border-radius:12px;
+}
+form label{
+    display: block;
+    font-size: 2em;
+    color: #333;
+    padding-left: 18px;
+}
+form input[type=text], form input[type=email], form input[type=tel] {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #300049;
+}
+form input[type=submit]{
+    background: royalblue;
+    color: #fff;
+    width:100%;
+    font-size:2em;
+    border: none;
+    cursor: pointer;
+}
+
+.verify{
+  width: 90%;
+  background:;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td:hover{background-color:#f5f5f5; color:red;}
+  a{
+    display:block;
+    border-radius:25px;
+    margin-top:15px;
+    background:green;
+    color:#fff;
+    font-size:2em;
+    text-decoration: none;
+    text-align:center;
+  }
+  /*DOwnload button*/
+  .download-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.download-btn{
+  position: relative;
+  background: #4285F4;
+  color: #fff;
+  width: 260px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover{
+  background: #2874F3;
+}
+
+.download-btn i{
+  margin-left: 5px;
+}
+
+.countdown{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.countdown span{
+  color: #0693F6;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.pleaseWait-text{
+  font-size: 1.1em;
+  font-weight: 600;
+  display: none;
+}
+
+.manualDownload-text{
+  font-size: 1.1em;
+  font-weight: 600;
+  display: none;
+}
+
+.manualDownload-link{
+  color: #0693F6;
+  font-weight: 800;
+  text-decoration: none;
+}
+#verify h1{
+  margin-left: 10px;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
